@@ -1,0 +1,17 @@
+C. Speed of car
+#include <iostream>
+using namespace std;
+int main()
+{
+ double s, d, t;
+ cout<<"Calculate the speed of a car given the value of time and distance traveled\n";
+ cout<<"Enter time in seconds: ";
+ cin>>t;
+ cout<<"Enter distance in meters: ";
+ cin>>d;
+ s = d/t;
+ cout<<"Time: "<<t<<"s\n";
+ cout<<"Distance: "<<d<<"m\n";
+ cout<<"The speed of the car is: "<<s<<"m/s";
+ return 0;
+}
