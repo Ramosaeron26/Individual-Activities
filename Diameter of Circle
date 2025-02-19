@@ -1,4 +1,4 @@
-B. Area of circle calculator
+B. Area of circle 
 #include <iostream>
 using namespace std;
 int main()
