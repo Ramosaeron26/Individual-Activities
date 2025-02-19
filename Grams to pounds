@@ -1,0 +1,13 @@
+A. Grams to pounds converter
+#include <iostream>
+using namespace std;
+int main()
+{
+ double g, p;
+ cout<<"Convert grams to pounds.\n";
+ cout<<"Enter grams: ";
+ cin>>g;
+ p = g/453.59237;
+ cout<<g<<" grams = "<<p<<" pounds";
+ return 0;
+}
