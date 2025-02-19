@@ -1,4 +1,4 @@
-A. Grams to pounds converter
+A. Grams to pounds
 #include <iostream>
 using namespace std;
 int main()
