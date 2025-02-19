@@ -1,0 +1,13 @@
+B. Area of circle calculator
+#include <iostream>
+using namespace std;
+int main()
+{
+ double a, d, pi = 3.14159;
+ cout<<"Compute area of a circle using diameter.\n";
+ cout<<"Enter diameter: ";
+ cin>>d;
+ a = .25*pi*d*d;
+ cout<<"Area of circle = "<<a;
+return 0;
+}
